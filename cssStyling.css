@@ -1,6 +1,6 @@
 	body{
 	margin: 0;
-	background: url(rimages/headerIMG.jpg) no-repeat center center fixed;
+	background: url(headerIMG.jpg) no-repeat center center fixed;
 	background-size: cover;
 	}
 
@@ -198,7 +198,7 @@
 		}
 		
 		#loginPage, #signUpPage{
-			background: url("rimages/circleRegister.png") no-repeat center center local;
+			background: url("circleRegister.png") no-repeat center center local;
 			background-size: auto 100%;        
 			padding: 10% 10%;
 			height: 100%;
