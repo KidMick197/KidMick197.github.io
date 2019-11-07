@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://kit.fontawesome.com/e3cc9056bc.js"></script>
+	<link rel="stylesheet" href="cssStyling.css">
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="splashPage.html" class="active">Home</a>
+  <a href="loginPage.html">Login</a>
+  <a href="signUpPage.html">Sign Up</a>
+  <a href="javascript:void(0);" class="fa fa-bars" onclick="myFunction()"></a>
+  <span id="userId">Welcome<a href="loginPage.html" id="guestUser"><i>GUEST</i></a></span>
+  <i class="fas fa-user-circle" id="userIcon"></i>
+</div>
+
+	<div id="signUpPage">
+		<form action="">
+			<u><b><h2>USER SIGN UP</h2></b></u>
+				<div id="loginInput">
+					<h3>Full Name</h3>
+					<input type="text" name="fName" required>
+					<h3>User Name</h3>
+					<input type="text" name="uName" required>
+					<h3>Email</h3>
+					<input type="Email" name="userEmail" required>
+					<h3>Password</h3>
+					<input type="password" name="pw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+					<h3>Re-Enter Passord</h3>
+					<input type="password" name="rPass"  required>
+				</div>			
+			<button>Sign Up</button> 
+		</form>
+	</div>
+	<script>
+	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  document.getElementById("userIcon").style.display="none";
+
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+    document.getElementById("userIcon").style.display="block";
+  }
+}
+</script>
+</body>
+</html>

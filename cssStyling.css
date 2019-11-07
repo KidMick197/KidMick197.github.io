@@ -1,0 +1,374 @@
+	body{
+	margin: 0;
+	background: url(rimages/headerIMG.jpg) no-repeat center center fixed;
+	background-size: cover;
+	}
+
+	.topnav {
+	 background-color: black;
+	 overflow: hidden;
+	}
+	
+	/* Style the links inside the navigation bar */
+	.topnav a {
+	  float: left;
+	  display: block;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 2.0EM;
+	}
+	
+	/* Add an active class to highlight the current page */
+	.active {
+	  background-color: #4CAF50;
+	  color: white;
+	}
+	
+	/* Hide the link that should open and close the topnav on small screens */
+	.topnav .fa-bars {
+	  display: none;
+	}
+	
+	#guestUser{
+	padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+	}
+	
+	/* Add a dark background on topnav links and the dropdown button on hover */
+	.topnav a:hover, .dropdown:hover .dropbtn {
+	  background-color: #555;
+	  color: white;
+	}
+	
+	/* Add a grey background to dropdown links on hover */
+	.dropdown-content a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+	
+	/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+	
+	/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+	@media screen and (max-width: 800px) {
+	  .topnav a, .dropdown .dropbtn {
+	    display: none;
+	  }
+	  .topnav a.fa-bars {
+	    float: right;
+	    display: block;
+	  }
+
+	}
+	
+	/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+	@media screen and (max-width: 800px) {
+	  .topnav.responsive {position: relative;}
+	  .topnav.responsive a.fa-bars {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	  }
+	  .topnav.responsive a {
+	    float: none;
+	    display: block;
+	    text-align: left;
+	  }
+	  	#userId {
+		display: none;
+	 }	
+
+	 #userIcon{
+	 	float: left!important;
+	 	padding-left: 1%;
+		
+	 }
+
+	}
+
+	
+	a {
+		text-decoration: none;
+	}
+	
+	span, #userIcon, a #menuBar{
+			float: right;
+  			color: rgb(255, 255, 255);
+  			text-align: center;
+  			padding-top: 14px;
+  			padding-right: 16px;
+			font-size: 2.0em;  
+			
+		}
+		
+
+		.navBarLinks{
+			float: left;
+  			display: block;
+  			color: rgb(255, 255, 255);
+  			text-align: center;
+  			padding: 14px 16px;
+  			text-decoration: none;
+			font-size: 2.5em;
+
+		}
+
+		.signIn{
+			overflow: hidden;
+			background-color: black;
+			width: 100%;
+			z-index: 99;
+		}
+
+
+		.navBarLinks:hover, #userName:hover{
+			background-color: white;
+			color: black;
+		}
+
+
+		.logo{
+			height: 260px;
+			width: 260px;
+			display: block;
+			margin:auto;
+			padding-top: 2%;
+		}
+			
+		#cf h2 p{
+			text-align: center;
+			display: inline;
+		}
+
+		#cf{
+				border-bottom: 1px;
+				border-color: black;
+			}
+	
+
+		#selection1,#selection2,#selection3{
+			height: 280px;
+			width: 30%;
+			float: left;
+			border-radius: 50px;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: .5%;
+		}
+
+		#selection2{
+			float: right!important;
+		}
+
+
+		.aboutUs,.topRecipesSection, #selectionO1,#selectionO2,#selectionO3{
+			background-color: rgba(255,255,255,0.85);
+			border: solid;
+			width: 90%;
+			margin: 1% 5%;
+			transition: transform 2s;
+			transition: .8s;
+		}
+
+
+		.aboutUs:hover,.topRecipesSection:hover, #selectionO1:hover,#selectionO2:hover,#selectionO3:hover{
+			background-color: rgba(90,134,111,0.85);
+			transform: scale(1.02);
+			font-weight: 545;
+		}
+		
+		#selectionO1,#selectionO2,#selectionO3{
+			height: 300px;	
+		}
+		
+		p{
+			padding: 1%;
+		}
+
+		#logoHeader{
+			text-align: center;
+			margin: auto;
+			margin-left: 1.5%;
+		}
+		
+		#loginPage, #signUpPage{
+			background: url("rimages/circleRegister.png") no-repeat center center local;
+			background-size: auto 100%;        
+			padding: 10% 10%;
+			height: 100%;
+			margin-top: 1%;
+		}
+
+		#userName{
+			color: rgb(255, 255, 255);
+			text-decoration-color: white!important;
+		}
+
+		a #menuBar{
+			float: right;
+  			display: none;
+  			color: rgb(255, 255, 255);
+  			text-align: center;
+  			padding: 14px 16px;
+  			text-decoration: none;
+  			font-size: 2.5em;
+		}
+
+		.headerLogo{
+			display: block;	
+			font-size: 3.0em;
+
+		}
+
+		.topRecipes{
+			border-radius: 30px;
+			width: 32%;
+			margin-left: .75%;
+		}
+
+		#newMember, #newMember a{
+			float: none!important;
+			color: white;
+			text-decoration-color: white;
+			font-size: 1em;
+		}
+		
+		#guestUser{
+			float: right!important;
+			color: white;
+			text-decoration-color: white;
+			font-size: 1em;
+		}
+
+		#newMember{
+		display: block;
+
+		}
+
+		h2, u{
+			text-align: center;
+			color: black;
+		}
+
+		#signUpForm h2{
+			color: white;
+		}
+	
+
+		input, button{
+			width: 35%;
+  			border: 2px solid #ccc;
+  			border-radius: 4px;
+  			box-sizing: border-box;
+			margin-left: 32.5%;
+			resize: vertical;
+			box-shadow: 1px 3.5px #888888;
+			cursor: pointer;
+		}
+
+
+
+		input{
+			cursor: text!important;
+		}
+
+		footer{
+			background-color: black;
+			color: white;
+			overflow: hidden;
+		}
+
+		button{
+			width: 25%;
+			height: 26px;
+			margin-top: 1%;
+			margin-left: 38%;
+			margin-bottom: 1%;
+			-moz-box-shadow:inset 0px 1px 0px 0px #3b5998;
+			-webkit-box-shadow:inset 0px 1px 0px 0px #3b5998;
+			box-shadow:inset 0px 1px 0px 0px #3b5998;
+			background:-webkit-linear-gradient(#3b5998 5%, #42476D 100%);
+			background:-o-linear-gradient(#3b5998 5%, #42476D 100%);
+			background:linear-gradient(#3b5998 5%, #42476D 100%);
+			filter:progid:DXImageTransform.Microsoft.gradient(startCo: ;lorstr='#3b5998', endColorstr='#42476D',GradientType=0);
+			background-color:#3b5998;
+			-moz-border-radius:6px;
+			-webkit-border-radius:6px;
+			border:1px solid #42476D;
+			color: white;
+		}
+		
+		button:hover, #newMember a:hover{
+
+			background:-webkit-linear-gradient(#fff 5%, #fff 100%);
+			background:-o-linear-gradient(#fff 5%, #fff 100%);
+			background:linear-gradient(#fff 5%, #fff 100%);
+			transition: transform .2s;
+			transition: .6s;
+			transform: scale(1.02);
+			color: black;
+
+		}
+
+		h3{
+			text-align: center;
+			margin: 5px;
+		}
+
+		@media only screen and (max-width: 800px) {
+
+  				.logo{
+					  left: 35%;
+					  padding-top: 2%;
+  				}
+
+
+  				a #menuBar{
+    		display: block;	
+  				}
+
+  				.topRecipes{
+			width: 100%;
+			height: 50%;
+			padding-top: 5%;
+			border-radius: 15%;
+			margin: 0;
+
+		}
+
+		#newMember{
+			font-size: 1em;
+		}
+
+		#selection1,#selection2,#selection3{
+			height: 200px;
+			width: 50%;
+			float: left;
+			border-radius: 20px;
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+
+		#loginPage{       
+			padding: 25% 10%;
+
+		}
+
+		#signUpPage{       
+			padding: 10% 10%;
+
+		}
+
+		button{
+			margin-top: 2%;
+		}
+
+
+
+

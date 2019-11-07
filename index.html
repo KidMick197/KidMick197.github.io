@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+	<script src="https://kit.fontawesome.com/e3cc9056bc.js"></script>
+	<link rel="stylesheet" href="cssStyling.css">
+
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="splashPage.html" class="active">Home</a>
+  <a href="loginPage.html">Login</a>
+  <a href="signUpPage.html">Sign Up</a>
+  <a href="javascript:void(0);" class="fa fa-bars" onclick="myFunction()"></a>
+  <span id="userId">Welcome<a href="loginPage.html" id="guestUser"><i>GUEST</i></a></span>
+  <i class="fas fa-user-circle" id="userIcon"></i>
+</div>
+
+	<div class="headerLogo">
+		<img src="plates.png" alt="" class="logo">
+		<h1 id="logoHeader">Recipeers</h1>
+	</div>
+	
+	<div class="aboutUs">
+		<h2>About Recipeers</h2>
+		<hr>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni eveniet nisi sit quibusdam, officiis nostrum ut veritatis ab mollitia in, placeat, reiciendis ipsa natus nam. Modi, at, autem. Alias, voluptas.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quo tenetur placeat optio saepe asperiores ducimus pariatur sunt minus error, consectetur atque, deserunt similique, ratione odit excepturi? Sapiente, dignissimos, aut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi nesciunt autem delectus aspernatur modi voluptate omnis iste harum inventore unde adipisci molestiae, aliquid cumque, dolorum voluptatibus in nemo, cupiditate similique.
+		</p>
+	</div>
+	<div class="topRecipesSection">
+		<h2 id="topHeader">Top Rated Recipes</h2>
+		<hr>
+		<section id="recipesImgs">
+			<img src="recipes1.JPG" alt="" class= "topRecipes" id="recipes1">
+			<img src="recipes2.JPG" alt="" class= "topRecipes" id="recipes2">
+			<img src="recipes3.JPG" alt="" class= "topRecipes" id="recipes3">
+
+		</section>
+	</div>
+	<div class="optionSelection">
+		<div class="options" id="selectionO1">
+			
+			<a href=""><img src="hotdog.jpg" alt="" id="selection1"></a>				
+			<section id="selectionType">
+				<a href=""><u><h2 id="cf" >Cost Friendly</h2></u></a>	
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem non veritatis, unde aperiam repellendus natus pariatur totam provident laboriosam facilis repellat sed sequi officia, porro quia reprehenderit velit modi? Repellendus.</p>
+			</section>
+
+		</div>
+			<div class="options" id="selectionO2">
+				
+				<a href=""><img src="crutons.jpg" alt="" id="selection2"></a>				
+				<section id="selectionType">	
+					<a href=""><u><h2 id="cf" >Quick and Easy</h2></u></a>	
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem non veritatis, unde aperiam repellendus natus pariatur totam provident laboriosam facilis repellat sed sequi officia, porro quia reprehenderit velit modi? Repellendus.</p>
+				</section>
+			</div>
+			<div class="options" id="selectionO3">	
+				
+				<a href=""><img src="pasta.jpg" alt="" id="selection3">	</a>
+			<section id="selectionType">
+				<a href=""><u><h2 id="cf">Gourmet</h2></u></a> 
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem non veritatis, unde aperiam repellendus natus pariatur totam provident laboriosam facilis repellat sed sequi officia, porro quia reprehenderit velit modi? Repellendus.</p>
+			</section>
+			</div>
+	</div>
+
+	<footer>
+		<div class="signUp">
+		<section id="signUpForm">
+			<h2>Sign Up For Our News Letter</h2>
+			
+			<form action="">
+				<h3>Full Name</h3>
+				<input type="text" required>
+				<h3>Email</h3>
+				<input type="email" required>
+				<h3>Phone Number</h3>
+				<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+				<button>Submit</button>
+			</form>
+		</section>
+	</div>
+	</footer>
+	<script>
+	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  document.getElementById("userIcon").style.display="none";
+
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+    document.getElementById("userIcon").style.display="block";
+  }
+}
+</script>
+</body>
+</html>
