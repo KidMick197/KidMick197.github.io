@@ -1,6 +1,6 @@
 	body{
 	margin: 0;
-	background: url(headerIMG.jpg) no-repeat center center fixed;
+	background: url(https://KidMick197.github.io/headerIMG.jpg) no-repeat center center fixed;https://lawrencecheng123.github.io/Seattle.jpg
 	background-size: cover;
 	}
 
@@ -198,7 +198,7 @@
 		}
 		
 		#loginPage, #signUpPage{
-			background: url("circleRegister.png") no-repeat center center local;
+			background: url("https://KidMick197.github.io/circleRegister.png") no-repeat center center local;
 			background-size: auto 100%;        
 			padding: 10% 10%;
 			height: 100%;
